@@ -1,16 +1,10 @@
 @media only screen and (max-width: 600px) {
-  iframe {
-    display: block;
-
-    width: 100%;
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  iframe {
-    display: block;
-    position: absolute;
-    left: 0;
-    width: 100%;
-  }
 }
