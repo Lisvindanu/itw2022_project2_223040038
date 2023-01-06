@@ -3,229 +3,654 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Naruto Ultimate Ninja Storm Website</title>
-    <!-- bootstrap css -->
+    <title>Switch Family</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <!-- my css -->
-    <!-- style css -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- responsive css -->
-    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- f.awesome -->
+    <script
+      src="https://kit.fontawesome.com/e18581a144.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- f.awesome end -->
   </head>
   <body>
-    <!-- navbar w logo -->
-    <nav class="navbar navbar-expand-lg bg-info">
+    <!-- navbar -->
+    <header class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="./assets/img/game-logo_83[20].png"
+        <a class="navbar-brand py-1" href="#"
+          ><img
+            src="assets/img/Nintendo-Logo.wine.png"
             alt=""
-            width="150"
-            height="75"
-          />
-        </a>
+            style="width: 300px"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#teaser">Teaser</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#list-game">List Game</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Naruto</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto py-3">
+            <a class="nav-link active px-3" aria-current="page" href="#"
+              >Home</a
+            >
+            <a class="nav-link px-3" href="#">Features</a>
+            <a class="nav-link px-3" href="#">Pricing</a>
+          </div>
         </div>
       </div>
-    </nav>
-    <!-- navbar w logo end -->
-    <!-- carousel / slide Item start -->
-    <div
-      id="carouselExampleAutoplaying"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active c-item">
-          <img
-            src="./assets/img/1127165 (1).jpg"
-            class="d-block w-100 c-img"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item c-item">
-          <img
-            src="./assets/img/wp7181161-naruto-ultimate-ninja-storm-wallpapers.png"
-            class="d-block w-100 c-img"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item c-item">
-          <img
-            src="./assets/img/wp5643384-naruto-ps4-aesthetic-wallpapers.jpg"
-            class="d-block w-100 c-img"
-            alt="..."
-          />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- carousel / slide item end -->
-
-    <!-- video teaser storm 4-->
-    <section id="teaser">
-      <div class="body-forvid">
-        <div class="maxWidth200px">
-          <h2>Video Teaser</h2>
-          <div class="videowrapper">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/QNkk-0rgX-E?start=28"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+    </header>
+    <!-- navbar-end -->
+    <!-- jumbotron -->
+    <section class="main-merah">
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-lg-6 align-self-center text-center">
+            <div class="">
+              <h2>Nintendo Switch is my way to play.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque expedita veniam.
+              </p>
+              <button type="button" class="btn btn-dark">Buy Here</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="px-4 py-5">
+              <img
+                src="assets/img/switch-family.jpg"
+                class="py-5 w-100 responsivewidthfull"
+              />
+            </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- video teaser storm end -->
-
-    <!-- feature section start-->
-    <section id="list-game">
+    <!-- jumbotron end -->
+    <!-- Nintendo switch v1 -->
+    <section class="switchV1">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6 align-self-center text-justify">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h2>Nintendo Switch V1</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              animi, sint nulla aperiam sequi cupiditate odit, repudiandae
+              commodi quasi reiciendis molestiae pariatur libero, ab assumenda
+              aliquid necessitatibus quia vero possimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+              facilis incidunt nulla, rem illo quos reiciendis, perspiciatis
+              dolorum tempore voluptatum repellendus enim labore sed molestiae
+              sint. Eveniet omnis ipsam iusto?
+            </p>
+            <button type="button" class="btn btn-dark">BUY HERE</button>
+          </div>
+          <div class="col-lg-6">
+            <div class="px-4 py-5 align-self-center">
+              <img
+                src="assets/img/Nintendo-Switch-PNG.png"
+                alt=""
+                class="py-3 w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Nintendo switch v1 end -->
+    <!-- Nintendo switch v2 start -->
+    <section class="switchV1">
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="px-4 py-2">
+              <img src="assets/img/switchv2.png" alt="" class="px-2 w-100" />
+            </div>
+          </div>
+          <div class="col-lg-6 align-self-center text-justify">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h2>Nintendo Switch V2</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              animi, sint nulla aperiam sequi cupiditate odit, repudiandae
+              commodi quasi reiciendis molestiae pariatur libero, ab assumenda
+              aliquid necessitatibus quia vero possimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+              facilis incidunt nulla, rem illo quos reiciendis, perspiciatis
+              dolorum tempore voluptatum repellendus enim labore sed molestiae
+              sint. Eveniet omnis ipsam iusto?
+            </p>
+            <button type="button" class="btn btn-dark">BUY HERE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Nintendo switch v2 end -->
+    <!-- Nintendo switch oled start -->
+    <section class="switchV1">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-lg-6 align-self-center text-justify">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h2>Nintendo Switch OLED</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              animi, sint nulla aperiam sequi cupiditate odit, repudiandae
+              commodi quasi reiciendis molestiae pariatur libero, ab assumenda
+              aliquid necessitatibus quia vero possimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+              facilis incidunt nulla, rem illo quos reiciendis, perspiciatis
+              dolorum tempore voluptatum repellendus enim labore sed molestiae
+              sint. Eveniet omnis ipsam iusto?
+            </p>
+            <button type="button" class="btn btn-dark">BUY HERE</button>
+          </div>
+          <div class="col-lg-6">
+            <div class="px-4 py-5 align-self-center">
+              <img src="assets/img/photo01.png" alt="" class="py-3 w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Nintendo switch oled end -->
+    <!-- Nintendo swutch lite start -->
+    <section class="switchV1">
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="px-4 py-2">
+              <img src="assets/img/switchLite.png" alt="" class="px-2 w-100" />
+            </div>
+          </div>
+          <div class="col-lg-6 align-self-center text-justify">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h2>Nintendo Switch Lite</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              animi, sint nulla aperiam sequi cupiditate odit, repudiandae
+              commodi quasi reiciendis molestiae pariatur libero, ab assumenda
+              aliquid necessitatibus quia vero possimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+              facilis incidunt nulla, rem illo quos reiciendis, perspiciatis
+              dolorum tempore voluptatum repellendus enim labore sed molestiae
+              sint. Eveniet omnis ipsam iusto?
+            </p>
+            <button type="button" class="btn btn-dark">BUY HERE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Nintendo swutch lite end -->
+    <!-- Galery promote start -->
+    <section class="slideraje">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 py-3 my-3">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/img/suwitch.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/img/Docked.jpg.webp"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/img/lite1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="carousel-indicators py-5">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active thumbnail"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                >
+                  <img
+                    src="assets/img/suwitch.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  class="thumbnail"
+                  aria-label="Slide 2"
+                >
+                  <img
+                    src="assets/img/Docked.jpg.webp"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  class="thumbnail"
+                  aria-label="Slide 3"
+                >
+                  <img
+                    src="assets/img/lite1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </button>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Galery promote end -->
+    <!-- promote switch start -->
+    <section class="switchpromote">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <img
+              src="assets/img/NintendoSwitch_gallery04.jpg"
+              alt=""
+              class="w-100"
+            />
+            <h2>Play With Friends</h2>
+            <p>
+              You can share the game with your friend's, or play the online
+              games with the Nintendo Switch Online feature
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <img src="assets/img/allswitch.jpg.webp" alt="" class="w-100" />
+            <h2>Which system suits you?</h2>
+            <p>
+              There are many choises for you.
+              <br />
+              Switch Lite for the one who love the compact and lineweigth
+              <span></span> Switch V1/V2/OLED for the one who want to portable
+              or docked Gamestyles!
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <img src="assets/img/switchgame5.jpg" alt="" class="w-100" />
+            <h2>Many variative games!</h2>
+            <p>
+              There are more than 4000 Games For u to play with!
+              <span></span>
+              with many genre's and different gameplay!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- promote switch end -->
+    <!-- game promote1 -->
+    <section class="game1">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="px-4 py-5">
+              <img src="assets/img/games1.jpg" alt="" class="px-4 py5 w-100" />
+            </div>
+          </div>
+          <div class="col-lg-6 align-self-center text-justify">
+            <h2>So many games to play</h2>
+            <p>
+              The Nintendo Switch family is home to exclusive games from
+              franchises like Super Smash Bros.™, The Legend of Zelda™, Mario
+              Kart™, and many more.
+            </p>
+            <p>
+              You’ll also find great games from other developers—with more added
+              every week.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- game promote1 end -->
+    <!-- game catalog with cardstart -->
+    <section id="Katalog-game">
       <div class="container">
         <div class="row">
-          <div class="col text-center">
-            <h2>Included Games</h2>
+          <div class="col-12 my-2 py-3 d-flex align-item-center tittlecatalog">
+            <h2>More than 5,000 games...and counting</h2>
+            <a
+              href="#"
+              class="mx-5 my-2 py-2"
+              style="font-size: 14px; font-weight: 200"
+            >
+              See more nintendo switch games
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 gambarnaek">
+            <div class="card p-1" style="width: 20rem">
+              <img src="assets/img/zelda.jpg" alt="" class="w-100" />
+              <div class="card-body">
+                <h4>
+                  The Legend of Zelda: <br />
+                  <br />
+                  Breath of the Wild
+                </h4>
+                <p>3/03/2017</p>
+                <div class="card-fasilitas">
+                  <h4>$59.99</h4>
+                  <p>&nbsp; Nintendo Switch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 gambarnaek">
+            <div class="card p-1" style="width: 20rem">
+              <img src="assets/img/hero.jpg" alt="" class="w-100" />
+              <div class="card-body">
+                <h4>
+                  NARUTO SHIPPUDEN: <br />
+                  <br />
+                  Ultimate Ninja Storm <br />
+                  <br />
+                  Trilogy
+                </h4>
+                <p>27/07/2017</p>
+                <div class="card-fasilitas">
+                  <h4>$39.99</h4>
+                  <p>&nbsp; Nintendo Switch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 gambarnaek">
+            <div class="card p-1" style="width: 20rem">
+              <img src="assets/img/hero_2.jpg" alt="" class="w-100" />
+              <div class="card-body">
+                <h4>Mario Kart 8 Deluxe</h4>
+                <p>20/02/2022</p>
+                <div class="card-fasilitas">
+                  <h4>$53.32</h4>
+                  <p>&nbsp; Nintendo Switch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 gambarnaek">
+            <div class="card p-1" style="width: 20rem">
+              <img src="assets/img/zelda.jpg" alt="" class="w-100" />
+              <div class="card-body">
+                <h4>Zelda Wild Breath</h4>
+                <p>20/02/2022</p>
+                <div class="card-fasilitas">
+                  <h4>$53.32</h4>
+                  <p>&nbsp;Nintendo Switch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 gambarnaek">
+            <div class="card p-1" style="width: 20rem">
+              <img src="assets/img/zelda.jpg" alt="" class="w-100" />
+              <div class="card-body">
+                <h4>Zelda Wild Breath</h4>
+                <p>20/02/2022</p>
+                <div class="card-fasilitas">
+                  <h4>$53.32</h4>
+                  <p>&nbsp;Nintendo Switch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 gambarnaek">
+            <div class="card p-1" style="width: 20rem">
+              <img src="assets/img/zelda.jpg" alt="" class="w-100" />
+              <div class="card-body">
+                <h4>Zelda Wild Breath</h4>
+                <p>20/02/2022</p>
+                <div class="card-fasilitas">
+                  <h4>$53.32</h4>
+                  <p>&nbsp;Nintendo Switch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 gambarnaek">
+            <div class="card p-1" style="width: 20rem">
+              <img src="assets/img/zelda.jpg" alt="" class="w-100" />
+              <div class="card-body">
+                <h4>Zelda Wild Breath</h4>
+                <p>20/02/2022</p>
+                <div class="card-fasilitas">
+                  <h4>$53.32</h4>
+                  <p>&nbsp;Nintendo Switch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 gambarnaek">
+            <div class="card p-1" style="width: 20rem">
+              <img src="assets/img/zelda.jpg" alt="" class="w-100" />
+              <div class="card-body">
+                <h4>Zelda Wild Breath</h4>
+                <p>20/02/2022</p>
+                <div class="card-fasilitas">
+                  <h4>$53.32</h4>
+                  <p>&nbsp;Nintendo Switch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 gambarnaek">
+            <div
+              class="card cardmoregames p-1"
+              style="width: 330px; height: 410px; position: relative"
+            >
+              <div class="card-body more m-auto my-4">
+                <h3 style="padding-top: 80px">
+                  <br />
+                  See More <br />
+                  Games
+                </h3>
+                <div class="card-fasilitas fasilitasmore">
+                  <p
+                    style="
+                      position: absolute;
+                      bottom: 0;
+                      color: #fff !important;
+                    "
+                  >
+                    &nbsp;Nintendo Switch
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- game catalog with card end -->
+    <!-- catalog aje -->
+    <section>
+      <div class="container catalog-console py-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Choose Your Nintendo Switch</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card card-catalog-console" style="width: 18rem">
+              <img
+                src="assets/img/v1-bundle.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Nintendo Switch Neon Blue/Neon Red Joy-Con + Mario Kart 8
+                  Deluxe (Full Game Download) + 3 Month Nintendo Switch Online
+                  Individual Membership
+                </h5>
+                <p class="card-text d-flex justify-content-between py-3">
+                  <br />
+                  $299 <span><br /></span>
+                  <a href="#" class="btn btn-danger">Buy now</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card card-catalog-console" style="width: 18rem">
+              <img
+                src="assets/img/swuitchlaite.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Nintendo Switch Lite Zacian And Zamazenta Edition
+                </h5>
+                <p class="card-text d-flex justify-content-between py-3">
+                  <br />
+                  $360 <span><br /></span>
+                  <a href="#" class="btn btn-danger">Buy now</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card card-catalog-console" style="width: 18rem">
+              <img
+                src="assets/img/suwitch-oled.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Nintendo Switch – OLED Model w/ White Joy-Con
+                </h5>
+                <p class="card-text d-flex justify-content-between py-3">
+                  <br />
+                  $290 <span><br /></span>
+                  <a href="#" class="btn btn-danger">Buy now</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accesories -->
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Accesories</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6">
-            <div class="card">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card card-catalog-console" style="width: 18rem">
               <img
-                src="./assets/img/capsule_616x353.jpg"
+                src="assets/img/procontroller.jpg"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 class="card-title">
+                  Nintendo Switch Neon Blue/Neon Red Joy-Con + Mario Kart 8
+                  Deluxe (Full Game Download) + 3 Month Nintendo Switch Online
+                  Individual Membership
+                </h5>
+                <p class="card-text d-flex justify-content-between py-3">
+                  <br />
+                  $299 <span><br /></span>
+                  <a href="#" class="btn btn-danger">Buy now</a>
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card">
-              <img
-                src="./assets/img/capsule_616x353.jpg"
-                class="card-img-top"
-                alt="..."
-              />
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card card-catalog-console" style="width: 18rem">
+              <img src="assets/img/joycon.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 class="card-title">
+                  Nintendo Switch Lite Zacian And Zamazenta Edition
+                </h5>
+                <p class="card-text d-flex justify-content-between py-3">
+                  <br />
+                  $360 <span><br /></span>
+                  <a href="#" class="btn btn-danger">Buy now</a>
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card">
-              <img
-                src="./assets/img/capsule_616x353.jpg"
-                class="card-img-top"
-                alt="..."
-              />
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card card-catalog-console" style="width: 18rem">
+              <img src="assets/img/pouch.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card">
-              <img
-                src="./assets/img/capsule_616x353.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card">
-              <img
-                src="./assets/img/capsule_616x353.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card">
-              <img
-                src="./assets/img/capsule_616x353.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 class="card-title">
+                  Nintendo Switch Carrying Case & Screen Protector
+                </h5>
+                <p class="card-text d-flex justify-content-between py-3">
+                  <br />
+                  $19.99 <span><br /></span>
+                  <a href="#" class="btn btn-danger">Buy now</a>
                 </p>
               </div>
             </div>
@@ -233,10 +658,40 @@
         </div>
       </div>
     </section>
-    <!-- feature section end -->
+    <!-- catalog aje end -->
+    <!-- logo and sosmed nintendo start -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-between futerkawe">
+            <img
+              src="assets/img/Nintendo-Logo.wine.png"
+              alt=""
+              style="width: 200px"
+            />
+            <div class="logososmed d-flex fs-3 py-3 text-light px-4">
+              <a class="nav-link px-3" href="#"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a class="nav-link px-3" href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a class="nav-link px-3" href="#"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a class="nav-link px-3" href="#"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- logo and sosmed nintendo end -->
+
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
   </body>

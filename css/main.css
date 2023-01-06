@@ -1,0 +1,155 @@
+/* Untuk umum */
+.main-merah {
+  background-color: #d40017;
+  color: white;
+}
+
+.btn {
+  border-radius: 15px !important;
+}
+
+/* section v1 switch */
+.switchV1 {
+  color: white;
+  background-color: #1a120b;
+}
+
+.carousel-indicators button.thumbnail {
+  width: 200px;
+  transition: all 0.55s ease;
+  position: relative;
+}
+
+.carousel-indicators button.thumbnail:not(.active) {
+  opacity: 0.5;
+}
+
+.carousel-indicators {
+  position: static;
+  left: 0;
+}
+
+.carousel-fluid .carousel-inner {
+  max-height: 70vh;
+}
+
+.slideraje {
+  background-color: aliceblue;
+}
+
+.switchpromote {
+  padding-top: 20px;
+  background-color: aliceblue;
+}
+.game1 {
+  /* padding-top: 15px; */
+  background-color: aliceblue;
+}
+
+.card {
+  width: 95%;
+}
+
+.card-body h4 {
+  color: #000;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 0.8rem;
+}
+
+.card-body p {
+  font-size: 12px !important;
+  color: #807e7e !important;
+}
+
+.card-fasilitas {
+  margin-top: 100px;
+}
+
+.carousel-indicators button.thumbnail:hover {
+  transform: translateY(-5px);
+}
+
+.gambarnaek .card {
+  cursor: pointer;
+  transition: 0.55s;
+}
+
+.gambarnaek .card:hover {
+  transform: scaleY(1.05);
+}
+
+.card-fasilitas p::before {
+  content: "";
+  height: 20px;
+  width: 1px;
+  right: 10;
+  background: #d40017;
+  position: absolute;
+}
+
+.tittlecatalog a {
+  color: #d40017;
+}
+
+.cardmoregames {
+  background: red !important;
+  color: white !important;
+}
+
+.catalog-console {
+  background: rgb(126, 126, 126) !important;
+}
+
+@media screen and (max-width: 600px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .tittlecatalog,
+  .catalog-console {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-catalog-console {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .gambarnaek {
+    position: relative !important;
+  }
+  .gambarnaek .card {
+    margin: auto !important;
+  }
+
+  .carousel-indicators {
+    width: 100%;
+    margin: auto;
+  }
+
+  .navbar img {
+    width: 200px !important;
+    margin-left: 0 !important ;
+  }
+
+  .futerkawe img {
+    width: 150px !important;
+  }
+}
+
+.futerkawe {
+  background-color: #e60012 !important;
+  box-sizing: border-box !important;
+}
+
+.nav-brand {
+  box-sizing: border-box !important;
+}
+
+.nav-brand img {
+  margin-left: -120px !important;
+}
