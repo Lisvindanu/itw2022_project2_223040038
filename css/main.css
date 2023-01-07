@@ -4,6 +4,9 @@
   color: white;
 }
 
+* {
+  font-family: "Raleway", sans-serif;
+}
 .btn {
   border-radius: 15px !important;
 }
@@ -11,7 +14,7 @@
 /* section v1 switch */
 .switchV1 {
   color: white;
-  background-color: #1a120b;
+  background-color: #242424;
 }
 
 .carousel-indicators button.thumbnail {
@@ -76,7 +79,7 @@
 }
 
 .gambarnaek .card:hover {
-  transform: scaleY(1.05);
+  transform: scale(1.05);
 }
 
 .card-fasilitas p::before {
@@ -166,4 +169,26 @@
 
 .ulistred {
   color: red !important;
+}
+
+.redaad a {
+  text-decoration: none;
+  padding-right: 20px;
+  color: white;
+}
+
+.redaad a:hover {
+  text-decoration: underline;
+}
+
+#footer3 {
+  background: #242424;
+}
+
+.card-catalog-console {
+  transition: all 0.55s !important;
+}
+
+.card-catalog-console:hover {
+  transform: scale(1.05) !important;
 }
