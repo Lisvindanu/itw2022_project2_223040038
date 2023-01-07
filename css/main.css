@@ -142,6 +142,10 @@
   .futerkawe img {
     width: 150px !important;
   }
+
+  .fuuterakhir {
+    font-size: smaller !important;
+  }
 }
 
 .futerkawe {
@@ -185,10 +189,12 @@
   background: #242424;
 }
 
-.card-catalog-console {
+.card-catalog-console,
+img {
   transition: all 0.55s !important;
 }
 
-.card-catalog-console:hover {
-  transform: scale(1.05) !important;
+.card-catalog-console,
+img:hover {
+  transform: scaleY(1.09) !important;
 }
