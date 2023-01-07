@@ -153,3 +153,17 @@
 .nav-brand img {
   margin-left: -120px !important;
 }
+
+.abott h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.abott p {
+  text-align: center !important;
+  font-size: 16px;
+}
+
+.ulistred {
+  color: red !important;
+}
