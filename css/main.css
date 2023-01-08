@@ -189,12 +189,10 @@
   background: #242424;
 }
 
-.card-catalog-console,
-img {
+.card-catalog-console img {
   transition: all 0.55s !important;
 }
 
-.card-catalog-console,
-img:hover {
+.card-catalog-console img:hover {
   transform: scaleY(1.09) !important;
 }
