@@ -11,6 +11,11 @@
   border-radius: 15px !important;
 }
 
+.jajan {
+  background-color: #000 !important;
+  color: white !important;
+}
+
 /* section v1 switch */
 .switchV1 {
   color: white;
@@ -37,16 +42,16 @@
 }
 
 .slideraje {
-  background-color: aliceblue;
+  background-color: white;
 }
 
 .switchpromote {
   padding-top: 20px;
-  background-color: aliceblue;
+  background-color: white;
 }
 .game1 {
-  /* padding-top: 15px; */
-  background-color: aliceblue;
+  color: white;
+  background-color: #d40017 !important;
 }
 
 .card {
@@ -101,7 +106,7 @@
 }
 
 .catalog-console {
-  background: rgb(126, 126, 126) !important;
+  background: #ebedee !important;
 }
 
 @media screen and (max-width: 600px) {
@@ -195,4 +200,7 @@
 
 .card-catalog-console img:hover {
   transform: scaleY(1.09) !important;
+}
+.ulliabout ul li {
+  cursor: pointer !important;
 }
