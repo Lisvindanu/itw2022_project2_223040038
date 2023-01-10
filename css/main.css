@@ -3,6 +3,10 @@
   color: white;
 }
 
+h2 {
+  font-weight: bolder !important;
+}
+
 * {
   font-family: "Raleway", sans-serif;
 }
@@ -13,6 +17,10 @@
 .jajan {
   background-color: #000 !important;
   color: white !important;
+}
+
+.jajan:hover {
+  background-color: rgba(232, 215, 215, 0.409) !important;
 }
 
 /* section v1 switch */
